@@ -11,11 +11,11 @@
         <module name="user-thrift-service-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="message-thrift-service-api" target="1.5" />
-      <module name="microservice" target="1.5" />
-      <module name="user-thrift-service" target="1.6" />
-      <module name="user-thrift-service-api" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="message-thrift-service-api" target="1.8" />
+      <module name="microservice" target="1.8" />
+      <module name="user-thrift-service" target="1.8" />
+      <module name="user-thrift-service-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

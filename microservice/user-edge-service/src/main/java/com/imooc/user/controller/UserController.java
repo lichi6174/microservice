@@ -21,9 +21,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.security.MessageDigest;
 import java.util.Random;
 
-/**
- * Created by Michael on 2017/10/30.
- */
 @Controller
 @RequestMapping("/user")
 public class UserController {

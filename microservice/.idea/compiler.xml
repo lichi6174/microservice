@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="course-dubbo-service" />
         <module name="course-dubbo-service-api" />
+        <module name="course-edge-service" />
         <module name="message-thrift-service-api" />
         <module name="user-edge-service" />
         <module name="user-edge-service-client" />
@@ -16,14 +17,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="course-dubbo-service" target="1.7" />
-      <module name="course-dubbo-service-api" target="1.7" />
-      <module name="message-thrift-service-api" target="1.5" />
-      <module name="microservice" target="1.5" />
+      <module name="course-dubbo-service" target="1.8" />
+      <module name="course-dubbo-service-api" target="1.8" />
+      <module name="course-edge-service" target="1.8" />
+      <module name="message-thrift-service-api" target="1.8" />
+      <module name="microservice" target="1.8" />
       <module name="user-edge-service" target="1.8" />
-      <module name="user-edge-service-client" target="1.5" />
-      <module name="user-thrift-service" target="1.6" />
-      <module name="user-thrift-service-api" target="1.5" />
+      <module name="user-edge-service-client" target="1.8" />
+      <module name="user-thrift-service" target="1.8" />
+      <module name="user-thrift-service-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

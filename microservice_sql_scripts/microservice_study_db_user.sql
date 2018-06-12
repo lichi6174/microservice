@@ -48,6 +48,6 @@ CREATE TABLE "pe_user" (
 -- ----------------------------
 -- Records of pe_user
 -- ----------------------------
-INSERT INTO `pe_user` VALUES ('2', 'lichi', 'e10adc3949ba59abbe56e057f20f883e', null, '13068743833', 'lichi6174@163.com');
-INSERT INTO `pe_user` VALUES ('3', 'yaozhen', 'e10adc3949ba59abbe56e057f20f883e', null, '13068743833', 'lichi6174@163.com');
+INSERT INTO `pe_user` VALUES ('2', 'lichi', 'e10adc3949ba59abbe56e057f20f883e', null, '13068743844', 'lichi6174@163.com');
+INSERT INTO `pe_user` VALUES ('3', 'yaozhen', 'e10adc3949ba59abbe56e057f20f883e', null, '13068743844', 'yaozhen6174@163.com');
 SET FOREIGN_KEY_CHECKS=1;

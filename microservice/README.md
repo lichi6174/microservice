@@ -16,3 +16,7 @@
 # 用户edgeservice
 # 课程edgeservice
 # API GATEWAY
+
+
+# 项目的服务依赖说明
+- 整个项目用到了独立的MySQL,Redis,Zookeeper服务，请按照项目要求自行搭建这几个服务，注意各个服务的监听端口设定；
